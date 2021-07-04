@@ -16,7 +16,7 @@ var generateBtn = document.querySelector("#generate");
 
 function generatePasswordLength() {
   const lengthInput = parseInt(prompt('Enter the number of characters you would like your password to contain'))
-  if (lengthInput < 8 || lengthInput > 128) {
+  if (lengthInput < 8 || lengthInput > 128) { 
   alert('Password must be 8-128 characters long')
   generatePasswordLength()
 } 
